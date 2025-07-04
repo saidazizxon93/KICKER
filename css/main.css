@@ -143,6 +143,24 @@ a {
   padding-bottom: 30px;
 }
 
+.lavash__title {
+  position: relative;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.lavash__title::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 3px;
+  top: 25px;
+  left: 150px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(255, 0, 0, 0.295);
+          box-shadow: 0px 4px 4px 0px rgba(255, 0, 0, 0.295);
+}
+
 .product__list {
   max-width: 440px;
   display: -webkit-box;
@@ -157,6 +175,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0;
+  margin-top: 17px;
 }
 
 .product__item {
