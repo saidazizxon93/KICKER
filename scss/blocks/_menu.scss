@@ -1,0 +1,33 @@
+.menu {
+}
+.menu__out {
+    padding-top: 5px;
+}
+.menu__inner {
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.267);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    overflow-x: scroll;
+    max-width: 1000px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; 
+}
+.menu__item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+.menu__item-link {
+    color: black;
+    
+
+}

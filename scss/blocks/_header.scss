@@ -1,0 +1,100 @@
+.header {
+    background-color: #fdbb2dc2;
+}
+.container {
+}
+.header__out {
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__burbtn {
+}
+.header__burimg {
+}
+.offcanvas {
+}
+.offcanvas-start {
+}
+.offcanvas-header {
+}
+.offcanvas-title {
+}
+.btn-close {
+}
+.offcanvas-body {
+}
+.dropdown {
+}
+.mt-3 {
+}
+.btn {
+}
+.btn-secondary {
+}
+.dropdown-toggle {
+}
+.dropdown-menu {
+}
+.dropdown-item {
+}
+.header__logolink {
+}
+.header__logo {
+}
+.header__user {
+}
+.header__userpc {
+}
+.header__menu-list {
+
+}
+.header__menu-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.432);
+    width: 200px;
+}
+.header__menu-item:nth-child(3){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.432);
+}
+.header__menu-item-img {
+}
+.header__menu-item-title {
+}
+.header__telbtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: #FDBB2D;
+}
+
+
+.header__form-inp {
+   border-radius: 30px;
+   border: 1px solid rgba(0, 0, 0, 0.384);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-bottom: 10px;
+}
+.header__form-text{
+    margin-bottom: 10px;
+    
+}
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
