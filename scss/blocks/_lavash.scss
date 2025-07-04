@@ -32,6 +32,7 @@
   flex-wrap: wrap;
   padding: 0;
   margin-top: 17px;
+  gap: 5px;
 }
 .product__item {
   padding-top: 5px;
@@ -51,7 +52,7 @@
   padding-bottom: 8px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgba(0, 0, 0, 0.11);
+  background-color: rgba(0, 0, 0, 0.055);
   border-radius: 20px;
   text-align: center;
   box-shadow: 0px 4px 4px 0px #00000040;
