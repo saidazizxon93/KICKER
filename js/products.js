@@ -74,14 +74,14 @@ let foods = [
         type: "danar",
         foodname: "Katta Danar",
         price: "26 000 so'm",
-        img: "/productimg/ef021eb216830dd7455176db78e9fb4e6,png"
+        img: "/productimg/danar2.png"
     },
     {
         id: "PZ1",
         type: "pizza",
         foodname: "Peperoniy Qoziqorilnli Pizza",
         price: "56 000 so'm",
-        img: "/productimg/pizza1jpg.png"
+        img: "/productimg/pizza1jpg(1).png"
     },
     {
         id: "PZ2",

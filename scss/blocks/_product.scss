@@ -1,0 +1,132 @@
+.lavash {
+}
+.container {
+}
+.lavash__out {
+}
+.lavash__inner {
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+.burger__inner{
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+.hotdog__inner{
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+.danar__inner{
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+.pizza__inner{
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+.product__title {
+  position: relative;
+  font-weight: 600;
+  font-size: 40px;
+}
+#pt1::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 3px;
+  top: 25px;
+  left: 150px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 0, 0, 0.295);
+
+}
+#pt2::before {
+  content: "";
+  position: absolute;
+  background-color: yellow;
+  width: 50px;
+  height: 3px;
+  top: 25px;
+  left: 150px;
+  box-shadow: 0px 4px 4px 0px rgba(251, 255, 0, 0.295);
+
+}
+#pt3::before {
+  content: "";
+  position: absolute;
+  background-color: #44FF00;
+  width: 50px;
+  height: 3px;
+  top: 25px;
+  left: 190px;
+  box-shadow: 0px 4px 4px 0px #44ff0034;
+
+}
+#pt4::before {
+  content: "";
+  position: absolute;
+  background-color: #FF9D00;
+  width: 50px;
+  height: 3px;
+  top: 25px;
+  left: 150px;
+  box-shadow: 0px 4px 4px 0px #ff9d0038;
+
+}
+#pt5::before {
+  content: "";
+  position: absolute;
+  background-color: #00FFAE;
+  width: 50px;
+  height: 3px;
+  top: 25px;
+  left: 120px;
+  box-shadow: 0px 4px 4px 0px #00ffae36;
+
+}
+#pt6::before {
+  content: "";
+  position: absolute;
+  background-color: #0084FF;
+  width: 50px;
+  height: 3px;
+  top: 25px;
+  left: 250px;
+  box-shadow: 0px 4px 4px 0px #0084ff42;
+
+}
+.product__list {
+  max-width: 440px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 17px;
+  gap: 10px;
+}
+.product__item {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.product__img {
+}
+.product__price {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(0, 0, 0, 0.055);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  color: black;
+}
