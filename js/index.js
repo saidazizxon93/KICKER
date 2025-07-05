@@ -46,7 +46,7 @@ function displayLavash(arr, type) {
         `
            <li class="product__item">
                      <img width="144px" height="117px" src="${el.img}" alt="" class="product__img">
-                     <a href="/detail.html?id=${el.id}" class="product__price">${el.price}</a>
+                     <a href="./detail.html?id=${el.id}" class="product__price">${el.price}</a>
                   </li>
         `
       );
@@ -59,7 +59,7 @@ function displayLavash(arr, type) {
         `
            <li class="product__item">
                      <img width="144px" height="117px" src="${el.img}" alt="" class="product__img">
-                     <a href="/detail.html?id=${el.id}" class="product__price">${el.price}</a>
+                     <a href="./detail.html?id=${el.id}" class="product__price">${el.price}</a>
                   </li>
         `
       );
@@ -72,7 +72,7 @@ function displayLavash(arr, type) {
         `
            <li class="product__item">
                      <img width="144px" height="117px" src="${el.img}" alt="" class="product__img">
-                     <a href="/detail.html?id=${el.id}" class="product__price">${el.price}</a>
+                     <a href="./detail.html?id=${el.id}" class="product__price">${el.price}</a>
                   </li>
         `
       );
@@ -85,7 +85,7 @@ function displayLavash(arr, type) {
         `
            <li class="product__item">
                      <img width="144px" height="117px" src="${el.img}" alt="" class="product__img">
-                     <a href="/detail.html?id=${el.id}" class="product__price">${el.price}</a>
+                     <a href="./detail.html?id=${el.id}" class="product__price">${el.price}</a>
                   </li>
         `
       );
@@ -98,7 +98,7 @@ function displayLavash(arr, type) {
         `
            <li class="product__item">
                      <img width="150px" height="127px" src="${el.img}" alt="" class="product__img">
-                     <a href="/detail.html?id=${el.id}" class="product__price">${el.price}</a>
+                     <a href="./detail.html?id=${el.id}" class="product__price">${el.price}</a>
                   </li>
         `
       );
@@ -111,7 +111,7 @@ function displayLavash(arr, type) {
         `
            <li class="product__item">
                      <img width="150px" height="127px" src="${el.img}" alt="" class="product__img">
-                     <a href="/detail.html?id=${el.id}" class="product__price">${el.price}</a>
+                     <a href="./detail.html?id=${el.id}" class="product__price">${el.price}</a>
                   </li>
         `
       );
