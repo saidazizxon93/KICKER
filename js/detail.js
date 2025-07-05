@@ -46,4 +46,7 @@ detail.innerHTML = `
                 <h3 class="detail__price">${findProduct.price}</h3>
                 <button class="detail__btn">Olish</button>
               </span>
-`
+`;
+
+
+
